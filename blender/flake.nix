@@ -51,7 +51,7 @@
               patchelf --set-interpreter "$(cat $NIX_CC/nix-support/dynamic-linker)"  \
                 $out/libexec/blender/*/python/bin/python3*
 
-              echo ~/spatial-dataset/image_generation > $out/libexec/blender/2.79/python/lib/python3.7/site-packages/clevr.pth
+              echo /home/xappma@GU.GU.SE/spatial-dataset/image_generation > $out/libexec/blender/2.79/python/lib/python3.7/site-packages/clevr.pth
             '';
 
           meta.mainProgram = "blender";
