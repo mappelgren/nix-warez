@@ -253,7 +253,7 @@
           blender_4_0
           blender_4_1
           blender_4_2;
-        default = blender_4_2;
+        default = blender_2_79;
       };
 
       checks.x86_64-linux = {
